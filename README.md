@@ -6,7 +6,7 @@
 
 
 ### 1. Клонировать репозиторий
-git clone https://github.com/kalyaminat/dnd-tests-game.git
+git clone https://github.com/kalyaminat/dnd-tests-game.git<br>
 
 cd dnd-tests-game
 
@@ -14,7 +14,7 @@ cd dnd-tests-game
 python -m venv .venv
 
 ### 3. Активировать
-.venv\Scripts\activate  # Windows
+.venv\Scripts\activate  # Windows<br>
 
  source .venv/bin/activate  # Mac/Linux
 
@@ -22,6 +22,6 @@ python -m venv .venv
 pip install -r requirements.txt
 
 ### 5. Настроить переменные окружения
-cp .env.example .env
+cp .env.example .env <br>
 
 Отредактируй .env, укажи свои TEST_USERNAME и TEST_PASSWORD
