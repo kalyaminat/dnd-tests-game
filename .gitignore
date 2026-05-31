@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables (секреты!)
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# Reports
+reports/
+htmlcov/
+.pytest_cache/
